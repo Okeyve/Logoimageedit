@@ -9,9 +9,9 @@ let logoSelected = 'logo1'; // Logo padrão
 let positionSelected = 'top-left'; // Posição padrão
 
 const logos = {
-    logo1: 'imagens/logo1.png',
-    logo2: 'imagens/logo2.svg',
-    logo3: 'imagens/logo3.png',
+    logo1: 'Imagens/logo1.png',
+    logo2: 'Imagens/logo2.svg',
+    logo3: 'Imagens/logo3.png',
 };
 
 imageUpload.addEventListener('change', (event) => {
