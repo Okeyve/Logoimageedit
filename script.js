@@ -7,7 +7,7 @@ let img = new Image();
 let logo = new Image();
 
 const logos = {
-    logo1: 'https://github.com/Okeyve/Logoimageedit/blob/main/Brazzers-01.png', // Substitua pelo caminho das suas logos
+    logo1: 'Imagens/logo1.png', // Substitua pelo caminho das suas logos
     logo2: 'path/to/logo2.png',
     logo3: 'path/to/logo3.png',
 };
