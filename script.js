@@ -10,7 +10,7 @@ let positionSelected = 'top-left'; // Posição padrão
 
 const logos = {
     logo1: 'imagens/logo1.png',
-    logo2: 'imagens/logo2.png',
+    logo2: 'imagens/logo2.svg',
     logo3: 'imagens/logo3.png',
 };
 
