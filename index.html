@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Editor de Imagem Automático</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Editor de Imagem Automático</h1>
+        <input type="file" id="imageUpload" accept="image/*">
+        <div class="logo-options">
+            <label>
+                <input type="radio" name="logo" value="logo1"> Logo 1
+            </label>
+            <label>
+                <input type="radio" name="logo" value="logo2"> Logo 2
+            </label>
+            <label>
+                <input type="radio" name="logo" value="logo3"> Logo 3
+            </label>
+        </div>
+        <div class="position-options">
+            <label>
+                <input type="radio" name="position" value="top-left" checked> Canto Superior Esquerdo
+            </label>
+            <label>
+                <input type="radio" name="position" value="top-right"> Canto Superior Direito
+            </label>
+            <label>
+                <input type="radio" name="position" value="bottom-left"> Canto Inferior Esquerdo
+            </label>
+            <label>
+                <input type="radio" name="position" value="bottom-right"> Canto Inferior Direito
+            </label>
+        </div>
+        <div class="preview">
+            <canvas id="canvas"></canvas>
+        </div>
+        <button id="downloadBtn">Baixar Imagem</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
