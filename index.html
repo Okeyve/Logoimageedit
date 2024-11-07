@@ -33,13 +33,13 @@
 
     <script>
         (function() {
-            emailjs.init('YOUR_PUBLIC_KEY'); // Substitua pelo seu Public Key do EmailJS
+            emailjs.init('kyUfLHRhzmpop4opR'); // Substitua pelo seu Public Key do EmailJS
         })();
 
         document.getElementById('emailForm').addEventListener('submit', function(event) {
             event.preventDefault();
 
-            emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+            emailjs.sendForm('service_q1pkirj', 'template_zvz53gj', this)
                 .then(function() {
                     alert('Email sent successfully!');
                 }, function(error) {
